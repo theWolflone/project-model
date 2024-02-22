@@ -1,0 +1,22 @@
+{
+  "name": "project-model",
+  "version": "1.0.0",
+  "description": "Página web explicativa para aprender del uso de la metodología de proyectos.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theWolflone/project-model.git"
+  },
+  "author": "Santiago Lobo Ulloa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theWolflone/project-model/issues"
+  },
+  "homepage": "https://github.com/theWolflone/project-model#readme",
+  "dependencies": {
+    "animejs": "^3.2.2"
+  }
+}
