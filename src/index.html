@@ -6,13 +6,24 @@
       <title>Project Model</title>
       <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>      
       <svg display="none">
             <symbol id="arrow">
                   <polyline points="7 10,12 15,17 10" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
             </symbol>
       </svg>
-      <h1>A Brief History of Unix Time</h1>
+      <div class="logo-container">
+            <svg class="logo" width="240" height="365" viewBox="0 0 534 784" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="l" d="M326.819 72.3198L421.584 47.2147L142.48 716.423H307.803H487.404L519.805 775.246H64.018L52.0387 705.469L326.819 72.3198Z" fill="#073B49" stroke="#073B49" stroke-width="10"/>
+                  <path class="downerS" d="M328.317 351.613C371.414 368.407 405.889 401.167 424.157 442.688C442.425 484.209 442.99 531.089 425.728 573.015C408.466 614.941 374.79 648.479 332.109 666.251C289.429 684.022 241.239 684.572 198.142 667.779L230.686 588.738C252.234 597.134 276.329 596.859 297.669 587.973C319.01 579.088 335.848 562.319 344.479 541.356C353.11 520.392 352.827 496.952 343.693 476.192C334.559 455.432 317.322 439.051 295.773 430.655L328.317 351.613Z" fill="#36533E" stroke="#36533E" stroke-width="10"/>
+                  <path class="upperS" d="M160.598 379.133C139.399 370.485 120.158 357.859 103.975 341.977C87.7914 326.095 74.9821 307.267 66.2783 286.569C57.5745 265.871 53.1466 243.708 53.2475 221.345C53.3483 198.982 57.9758 176.857 66.8659 156.234C75.756 135.611 88.7345 116.893 105.06 101.15C121.386 85.4062 140.74 72.945 162.016 64.4776C183.293 56.0103 206.075 51.7027 229.062 51.8007C252.05 51.8988 274.792 56.4005 295.992 65.049L262.143 143.57C251.543 139.246 240.172 136.995 228.678 136.946C217.185 136.897 205.794 139.051 195.155 143.284C184.517 147.518 174.84 153.749 166.678 161.621C158.515 169.492 152.025 178.851 147.58 189.163C143.135 199.474 140.821 210.537 140.771 221.718C140.721 232.899 142.935 243.981 147.286 254.33C151.638 264.679 158.043 274.093 166.135 282.034C174.226 289.975 183.847 296.288 194.446 300.612L160.598 379.133Z"  stroke="#36533E" stroke-width="10" fill="#36533E"/>
+            </svg>
+                  
+      </div>
+      <h1>Modelo de Proyectos</h1>
+      <div class="description">
+            <p class="">El modelo de proyectos es una herramienta que permite a los equipos de trabajo planificar, ejecutar y controlar las actividades de un proyecto. Este modelo se compone de seis pasos que se deben seguir para llevar a cabo un proyecto de manera exitosa. Lo interesante de esta metodología es que la podemos aplicar en TODO aspecto de nuestra vida. ¿No me crees? Sígueme...</p>
+      </div>
       <div id="timeline" class="timeline">
             <div class="btn-group">
                   <button class="btn" type="button" data-action="expand">Expand All</button>
@@ -27,15 +38,16 @@
                         </button>
                         <span class="timeline__dot"></span>
                         <span id="item1-name" class="timeline__meta">
-                              <time class="timeline__date" datetime="1970-01-01">January 1, 1970</time><br>
-                              <strong class="timeline__title">Unix Epoch</strong>
+                              <time class="timeline__date">Paso I</time><br>
+                              <strong class="timeline__title">Informar</strong>
                         </span>
                   </div>
                   <div class="timeline__item-body" id="item1-ctrld" role="region" aria-labelledby="item1" aria-hidden="true">
                         <div class="timeline__item-body-content">
-                              <p class="timeline__item-p">This is the day the Unix clock began (or <time datetime="1969-12-31">December 31, 1969</time> if you live behind UTC 😉).</p>
+                              <p class="timeline__item-p">En esta sección se recopila información necesaria para la resolución del problema, tarea u objetivo que se ha planteado, del cual se puede obtener por medio de fuentes como libros, manuales, revistas, entrevistas, sitios web, entre otros.</p>
                         </div>
                   </div>
+                  
             </div>
             <div class="timeline__item">
                   <div class="timeline__item-header">
@@ -46,13 +58,16 @@
                         </button>
                         <span class="timeline__dot"></span>
                         <span id="item2-name" class="timeline__meta">
-                              <time class="timeline__date" datetime="1973-10-17">October 17, 1973</time><br>
-                              <strong class="timeline__title">Digits Within ISO 8601 Format</strong>
+                              <time class="timeline__date" datetime="1973-10-17">Paso II</time><br>
+                              <strong class="timeline__title">Planificar</strong>
                         </span>
                   </div>
                   <div class="timeline__item-body" id="item2-ctrld" role="region" aria-labelledby="item2" aria-hidden="true">
                         <div class="timeline__item-body-content">
-                              <p class="timeline__item-p">At 6:36:57 PM UTC, the date in ISO 8601 format (1973-10-17) within the time digits (119731017) appeared for the first time.</p>
+                              <p class="timeline__item-p">Se elabora todo un plan para llevar a cabo nuestro proyecto, la estructuración del procedimiento metodológico y la visualización de todas las herramientas y medios que se utilizarán idealmente para el trabajo.
+                              </p>
+                              <br>
+                              <p>En este paso se debe generar un plan del proyecto, que incluya los objetivos, el alcance, los recursos necesarios, el cronograma, el presupuesto y los riesgos, junto con algunos otros factores que se puedan presentar que haya que tomar en cuenta antes de tomar cualquier decisión.</p>
                         </div>
                   </div>
             </div>
@@ -65,13 +80,15 @@
                         </button>
                         <span class="timeline__dot"></span>
                         <span id="item3-name" class="timeline__meta">
-                              <time class="timeline__date" datetime="2001-09-09">September 9, 2001</time><br>
-                              <strong class="timeline__title">1 Billion Seconds</strong>
+                              <time class="timeline__date">Paso III</time><br>
+                              <strong class="timeline__title">Decidir</strong>
                         </span>
                   </div>
                   <div class="timeline__item-body" id="item3-ctrld" role="region" aria-labelledby="item3" aria-hidden="true">
                         <div class="timeline__item-body-content">
-                              <p class="timeline__item-p">Unix time reached 1,000,000,000 seconds at 1:46:40 AM UTC. The Danish UNIX User Group celebrated this in Copenhagen, Denmark.</p>
+                              <p class="timeline__item-p">Antes de pasar como tal a producir y realizar como tal, se deciden estrategias y variables posibles que se desean seguir, definiendo así una ruta para la realización de nuestro proyecto.</p>
+                              <br>
+                              <p class="timeline__item-p">En este paso se toman decisiones sobre la ejecución del proyecto, se asignan los recursos y se establecen los procedimientos para la realización de las actividades.</p>
                         </div>
                   </div>
             </div>
@@ -84,13 +101,15 @@
                         </button>
                         <span class="timeline__dot"></span>
                         <span id="item4-name" class="timeline__meta">
-                              <time class="timeline__date" datetime="2009-02-13">February 13, 2009</time><br>
-                              <strong class="timeline__title">1,234,567,890 Seconds</strong>
+                              <time class="timeline__date">Paso IV</time><br>
+                              <strong class="timeline__title">Ejecutar</strong>
                         </span>
                   </div>
                   <div class="timeline__item-body" id="item4-ctrld" role="region" aria-labelledby="item4" aria-hidden="true">
                         <div class="timeline__item-body-content">
-                              <p class="timeline__item-p">At 11:31:30 PM UTC, the digits of the time were 1234567890. This was celebrated worldwide, and even Google had a <a href="https://www.google.com/logos/unix1234567890.gif" target="_blank" rel="noopener">doodle</a> for it.</p>
+                              <p class="timeline__item-p">Tras haber pasado por todo este proceso, pasamos a la realización de nuestro proyecto como tal, donde juntamos todo lo que generamos en las etapas anteriores y lo plasmamos en algo real.</p>
+                              <br>
+                              <p class="timeline__item-p">En este paso se lleva a cabo el plan del proyecto, se ejecutan las actividades y se realizan los controles necesarios para asegurar que el proyecto se desarrolle de acuerdo con lo planificado. Se puede decir que se evalúa de forma parcial lo realizado según lo planteado originalmente.</p>
                         </div>
                   </div>
             </div>
@@ -103,13 +122,15 @@
                         </button>
                         <span class="timeline__dot"></span>
                         <span id="item5-name" class="timeline__meta">
-                              <time class="timeline__date" datetime="2033-05-18">May 18, 2033</time><br>
-                              <strong class="timeline__title">2 Billion Seconds</strong>
+                              <time class="timeline__date">Paso V</time><br>
+                              <strong class="timeline__title">Controlar</strong>
                         </span>
                   </div>
                   <div class="timeline__item-body" id="item5-ctrld" role="region" aria-labelledby="item5" aria-hidden="true">
                         <div class="timeline__item-body-content">
-                              <p class="timeline__item-p">Unix time will reach 2,000,000,000 seconds at 3:33:20 AM UTC.</p>
+                              <p class="timeline__item-p">Ahora, tras concluir nuestra tarea, pasamos a la vigilancia del desempeño de nuestro proyecto y lo que se esté o se haya realizado en él hasta el momento.</p>
+                              <br>
+                              <p class="timeline__item-p">¿Para qué hacemos esto? Esto es con la finalidad de encontrar posibles fallos en el trabajo realizado y buscar resolverlos o simplemente optimizar nuestro proyecto.</p>
                         </div>
                   </div>
             </div>
@@ -122,18 +143,22 @@
                         </button>
                         <span class="timeline__dot"></span>
                         <span id="item6-name" class="timeline__meta">
-                              <time class="timeline__date" datetime="2038-01-19">January 19, 2038</time><br>
-                              <strong class="timeline__title">Unix Epochalypse</strong>
+                              <time class="timeline__date" datetime="2038-01-19">Paso VI</time><br>
+                              <strong class="timeline__title">Valorar</strong>
                         </span>
                   </div>
                   <div class="timeline__item-body" id="item6-ctrld" role="region" aria-labelledby="item6" aria-hidden="true">
                         <div class="timeline__item-body-content">
-                              <p class="timeline__item-p">Also known as the year 2038 problem, clocks running on a 32-bit signed integer will flip from 3:14:08 AM UTC on this day to 8:45:52 PM UTC on December 13, 1901. Therefore, values only from -2,147,483,648 to 2,147,483,647 for the second are supported.</p>
+                              <p class="timeline__item-p">Por fin, hemos finalizado el proyecto, con esto, seguimos a un planteamiento final, en el cual colocamos lo realizado bajo retroalimentación, tomando en cuenta todas las etapas anteriores.</p>
+                              <br>
+                              <p class="timeline__item-p">No se refiere a enfocarnos a lo que se hizo mal en el proyecto, se buscan tanto errores como éxitos alcanzados, para así definir qué se hizo bien para repetirlo o mejorarlo y qué se hizo mal para cambiarlo o no volverlo a hacer.</p>
                         </div>
                   </div>
             </div>
       </div>
-      <script src="../assets/anime.min.js"></script>
+      <script src="anime.min.js"></script>
+      <script src="main.js"></script>
       <script src="script.js"></script>
+      
 </body>
 </html>
