@@ -50,8 +50,7 @@ h1 {
 }
 .btn-group {
 	display: flex;
-	align-items: flex-end;
-	justify-content: right;
+	justify-content: left;
 	gap: 0.375em;
 	margin-bottom: 1.5em;
 }
@@ -167,7 +166,7 @@ h1 {
 }
 
 .description{
-	width: 50vw;
+	width: 20em;
 	margin: auto;
 	text-align: justify;
 	border-radius: 0.375em;
@@ -206,7 +205,7 @@ h1 {
 	margin-top: 1em;
 	display: flex;
 	flex-direction: row;
-	gap: 1vw;
+	gap: 0.8vw;
 }
 
 .examples-output{
@@ -235,7 +234,7 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 15px;
+	gap: 10px;
 	font-size: 16px;
 }
 
@@ -244,7 +243,13 @@ h1 {
     opacity: 1; /* Show the overlay on hover */
 }
 
-
+iframe{
+	width: 94%;
+	height: 44vh;
+	border-radius: 0.800em;
+	margin-top: 1em;
+	margin-bottom: 90px;
+}
 
 
 /* Dark theme */
